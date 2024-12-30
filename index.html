@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgapéRencontre - Rencontres Chrétiennes Sérieuses</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="AgapéRencontre">
+            </div>
+            <div class="nav-links">
+                <a href="/" class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    Accueil
+                </a>
+                <a href="/profile" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    Profil
+                </a>
+                <a href="/messages" class="nav-item">
+                    <i class="fas fa-envelope"></i>
+                    Messages
+                    <span class="message-badge">2</span>
+                </a>
+                <div class="search-container">
+                    <input type="text" placeholder="Rechercher..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <a href="#connexion" class="btn btn-login">Connexion</a>
+                <a href="#inscription" class="btn btn-register">Inscription</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Hero avec présentation et objectif -->
+        <section class="hero">
+            <h1>Trouvez votre âme sœur dans la foi</h1>
+            <p class="subtitle">Des rencontres chrétiennes authentiques en vue du mariage</p>
+            
+            <!-- Formulaire d'inscription rapide -->
+            <div class="quick-register">
+                <h2>Commencez votre parcours spirituel</h2>
+                <form id="register-form" class="register-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre adresse e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Votre numéro de téléphone" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Créez votre mot de passe" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Créer mon compte gratuitement</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <div class="container">
+                <h2>Notre Mission</h2>
+                <div class="mission-content">
+                    <div class="mission-text">
+                        <p class="highlight">AgapéRencontre est né d'une vision simple : permettre aux chrétiens célibataires de trouver l'amour dans le respect de leurs valeurs et de leur foi.</p>
+                        
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-cross"></i>
+                                <h3>Foi Chrétienne</h3>
+                                <p>Un espace dédié aux célibataires partageant les mêmes convictions spirituelles.</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-heart"></i>
+                                <h3>Relations Sérieuses</h3>
+                                <p>Une plateforme orientée vers le mariage et les relations durables.</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-users"></i>
+                                <h3>Communauté Bienveillante</h3>
+                                <p>Un environnement sûr et respectueux pour faire des rencontres authentiques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-section">
+                        <h3>AgapéRencontre en chiffres</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number">15,000+</span>
+                                <span class="stat-label">Membres actifs</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1,200+</span>
+                                <span class="stat-label">Couples formés</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Mariages célébrés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Fonctionnalités -->
+        <section class="features">
+            <h2>Nos fonctionnalités principales</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="icon-search"></i>
+                    <h3>Recherche Avancée</h3>
+                    <p>Trouvez des profils selon vos critères spirituels et personnels</p>
+                </div>
+                <div class="feature-card">
+                    <i class="icon-message"></i>
+                    <h3>Messagerie Sécurisée</h3>
+                    <p>Échangez en toute confiance avec d'autres célibataires chrétiens</p>
+                </div>
+                <div class="feature-card">
+                    <i class="icon-match"></i>
+                    <h3>Suggestions Personnalisées</h3>
+                    <p>Recevez des profils compatibles avec vos valeurs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Témoignages -->
+        <section class="testimonials">
+            <h2>Témoignages de couples chrétiens</h2>
+            <div class="testimonials-slider">
+                <!-- Les témoignages seront ajoutés dynamiquement -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/about">À propos</a>
+                <a href="/privacy">Confidentialité</a>
+                <a href="/terms">Conditions d'utilisation</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2024 AgapéRencontre - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- Scripts JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
